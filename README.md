@@ -1,6 +1,6 @@
 # NBA Predictions
 
-The purpose of this project is to analyze the individual NBA player data from 1978 - 2016 to uncover surprising and unforseen trends and potential player classifications.
+The purpose of this project is to analyze the individual NBA player data from 1978 - 2016 to uncover surprising and unforeseen trends and potential player classifications.
 
 ## Team Members
 Kalib

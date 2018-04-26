@@ -13,6 +13,12 @@ Owen
 
 Potential clusters and predictions of various metrics: e.g. player salary, position, etc.
 
+## Additional Components
+1. Pandas
+2. Matplotlib
+3. Tableau
+4. HTML/CSS/Bootstrap
+
 ## Dataset
 - NBA Player Stats: https://data.world/jgrosz99/nba-player-data-1978-2016
 

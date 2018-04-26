@@ -4,6 +4,7 @@ The purpose of this project is to analyze the individual NBA player data from 19
 
 ## Team Members
 Kalib
+
 Owen    
 
 ## Main Machine Learning Components

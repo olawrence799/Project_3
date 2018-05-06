@@ -1,0 +1,33 @@
+  @media (max-width: 180px) {
+    .navbar.navbar-default ul {
+      visibility: hidden;
+    }
+  }
+
+  @media (color) {
+    .nav.navbar-nav.navbar-right li a:focus{
+      background-color: rgb(212, 211, 101);
+    }
+    .navbar-header a.navbar-brand {
+        color: rgb(74, 24, 211);
+    }
+  }
+
+  div.row h1{
+      text-align: center;
+      color: rgb(74, 24, 211);
+  }
+
+  img{
+      align-self: center;
+  }
+
+  div.row.col-sm-6.col-md-12{
+      align-content: center;
+  }
+
+  @media (max-width: 180px) {
+    .nav.navbar-nav.navbar-right .dropdown {
+      visibility: hidden;
+    }
+  }

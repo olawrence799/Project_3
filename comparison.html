@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Lattitude -- comparison</title>
+  <title>NBA Stats Analysis -- comparison</title>
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><strong>Lattitude</strong></a>
+                <a class="navbar-brand" href="index.html"><strong>NBA Stats</strong></a>
                 </div>
         
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,15 +34,17 @@
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="temperature.html">Max Temperature</a></li>
-                        <li><a href="humidity.html">Humidity</a></li>
-                        <li><a href="cloudiness.html">Defensive Player of the Year</a></li>
+                        <li><a href="PlayerRegressions.html">Player Stats Linear Regressions</a></li>
+                        <li><a href="mvp.html">MVP Stats and Predictions</a></li>
+                        <li><a href="dpoy.html">Defensive Player of the Year</a></li>
                         <!--<li role="separator" class="divider"></li>-->
-                        <li><a href="windspeed.html">Wind Speed</a></li>
+                        <li><a href="sixthman.html">Sixth Man</a></li>
+                        <li><a href="rookie.html">Rookie of the Year</a></li>
                     </ul>
                     </li>
                     <li><a href="comparison.html">Comparison</a></li>
                     <li><a href="data.html">Data</a></li>
+                    <li><a href="https://www.basketball-reference.com/about/glossary.html" target="_blank">Basketball Terms Reference Glossary</a></li>
                 </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -53,16 +55,68 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="box red"><img src="https://github.com/olawrence799/homework12_Lattitude/blob/master/LatitudeVsTemperature.png?raw=true" width="100%" alt="Latitude versus Temperature"></div>
+                <h1>Defensive Player of the Year</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Tableau%20Slides/DPOY%20Slide.png?raw=true" width="100%" alt="Defensive Player of the Year Summary"></div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="box red"><img src="https://github.com/olawrence799/homework12_Lattitude/blob/master/LatitudeVsHumidity.png?raw=true" width="100%" alt="Latitude versus Humidity"></div>
+                <h1>MVP Summary</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Tableau%20Slides/MVP%20Slide.png?raw=true" width="100%" alt="MVP Summary"></div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="box red"><img src="https://github.com/olawrence799/homework12_Lattitude/blob/master/LatitudeVsCloudiness.png?raw=true" width="100%" alt="Latitude versus Cloudiness"></div>
+                <h1>Rookie of the Year Summary</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Tableau%20Slides/ROY%20Slide.png?raw=true" width="100%" alt="Rookie of the Year Summary"></div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="box red"><img src="https://github.com/olawrence799/homework12_Lattitude/blob/master/LatitudeVsWindSpeed.png?raw=true" width="100%" alt="Latitude versus Wind Speed"></div>
+                <h1>Sixth Man Summary</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Tableau%20Slides/Sixth%20Man%20Slide.png?raw=true" width="100%" alt="Sixth Man Summary"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Sixth Man</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/6Man_Features.png?raw=true" width="100%" alt="Sixth Man Features"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Defensive Player of the Year</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/DPOY_Features.png?raw=true" width="100%" alt="Defensive Player of the Year Features"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>MVP</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/MVP_Features.png?raw=true" width="100%" alt="MVP Features"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Position</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Pos_Features.png?raw=true" width="100%" alt="Position Features"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Rookie of the Year</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/ROY_Features.png?raw=true" width="100%" alt="Rookie of the Year Features"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Rookie Success</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Rookie_Success_Features.png?raw=true" width="100%" alt="Rookie Success Features"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Team</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Tm_Features.png?raw=true" width="100%" alt="Team Features"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>KNN Testing: Player Position</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/KNN_Pos.png?raw=true" width="100%" alt="K Neareest Neighbors Player Position"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Stratified KNN Testing: Player Position</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Strat_KNN_Pos.png?raw=true" width="100%" alt="Stratified K Neareest Neighbors Player Position"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Stratified KNN Testing: Team</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/Strat_KNN_Tm.png?raw=true" width="100%" alt="Stratified K Neareest Neighbors Team"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Minutes Played Regression Residuals</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/MP_residuals.png?raw=true" width="100%" alt="Minutes Played Residuals"></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <h1>Player Efficiency Rating Regression Residuals</h1>
+                <div class="box red"><img src="https://github.com/olawrence799/Project_3/blob/master/PER_residuals.png?raw=true" width="100%" alt="Player Effiency Rating Residuals"></div>
             </div>
         </div>
     </div>

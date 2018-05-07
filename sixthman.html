@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Latitude vs Temperature</title>
+  <title>Sixth Man</title>
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,7 +24,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><strong>Lattitude</strong></a>
+                <a class="navbar-brand" href="index.html"><strong>NBA Stats</strong></a>
                 </div>
         
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,15 +34,17 @@
                     <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="temperature.html">Max Temperature</a></li>
-                        <li><a href="humidity.html">Humidity</a></li>
-                        <li><a href="cloudiness.html">Defensive Player of the Year</a></li>
+                        <li><a href="PlayerRegressions.html">Player Stats Linear Regressions</a></li>
+                        <li><a href="mvp.html">MVP Stats and Predictions</a></li>
+                        <li><a href="dpoy.html">Defensive Player of the Year</a></li>
                         <!--<li role="separator" class="divider"></li>-->
-                        <li><a href="windspeed.html">Wind Speed</a></li>
+                        <li><a href="sixthman.html">Sixth Man</a></li>
+                        <li><a href="rookie.html">Rookie of the Year</a></li>
                     </ul>
                     </li>
                     <li><a href="comparison.html">Comparison</a></li>
                     <li><a href="data.html">Data</a></li>
+                    <li><a href="https://www.basketball-reference.com/about/glossary.html" target="_blank">Basketball Terms Reference Glossary</a></li>
                 </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -54,9 +56,30 @@
         <!-- Row 1 -->
         <div class="row">
             <div class="col-sm-6 col-md-12">
-            <h1>Latitude vs Max Temperature (F)</h1>
-            <img src="https://github.com/olawrence799/homework12_Lattitude/blob/master/LatitudeVsTemperature.png?raw=true" width="100%" alt="Latitude versus Temperature">
-            <p>The figure above plots the observed maximum temperature (y-axis) against the city latitude (x-axis). This scatter plot reveals a fairly clear relationship between temperature and latitude: temperature tends to be highest at the equator (latitude=0). Interestingly, the northern hemisphere appears to have colder temperatures than the southern hemisphere at comparable distances from the equator. Further, there is more temperature variance across cities with latitude > 0, shown by the vertical spread in data points.</p>
+            <h1>Sixth Man of the Year Stats Summary</h1>
+            <h1><img src="https://github.com/olawrence799/Project_3/blob/master/Tableau%20Slides/Sixth%20Man%20Slide%20.png?raw=true" width="80%" alt="sixth man of the year"></h1>
+            <p>The figure above plots the observed cloudiness (y-axis) against the city latitude (x-axis). While this plot does not suggest any strong correlation between latitude and cloudiness, it is worth noting that most data points lie below 40% or above 60% cloud cover. It's not so common to have cloudiness between 40% and 60%!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-12">
+            <h1>Sixth Man of the Year Feature Importance</h1>
+            <h1><img src="https://github.com/olawrence799/Project_3/blob/master/6Man_Features.png?raw=true" width="80%" alt="Sixth Man of the Year features"></h1>
+            <p>This project aimed to investigate city weather observations provided by the OpenWeatherMap API, with the looming question of "how does weather change as you approach the equator?"</p>
+            <p>To assess this question, we sampled over 500 cities and assembled the data before finally utilizing Matplotlib to visualize various comparisons.</p>
+            <p>Factors investigated included: temperature, cloudiness, wind speed, and humidity. Charts for these different observations can be found on this site, along with the source data used for these visualizations.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+            <ul>
+                <!-- <li><a href="PlayerRegressions.html">Player Linear Regression</a></li>
+                <li><a href="humidity.html">Humidity</a></li>
+                <li><a href="dpoy.html">Defensive Player of the Year</a></li>
+                <li><a href="windspeed.html">Wind Speed</a></li> -->
+                <li><a href="https://www.basketball-reference.com/about/glossary.html" target="_blank">Basketball Terms Reference Glossary</a></li>
+            </ul>
             </div>
         </div>
     </div>

@@ -21,10 +21,9 @@ Potential clusters and predictions of various metrics: e.g. player salary, posit
 
 ## Dataset
 - NBA Player Stats: https://data.world/jgrosz99/nba-player-data-1978-2016
+- Advanced NBA Stats: https://www.kaggle.com/danchyy/advanced-nba-stats-for-2017-season/data
 
 
 ## Final integrated project
 
-- Main Deck: [placeholder]
-
-- Git Pages: [placeholder]
+- Git Pages: https://olawrence799.github.io/Project_3/
